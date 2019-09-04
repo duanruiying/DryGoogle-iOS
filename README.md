@@ -23,7 +23,7 @@ iOS: Facebbok功能集成简化(登录)
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    [DryGoogle handleOpenURL:url options:options];
+    [DryGoogle handleOpenURL:url];
     return YES;
 }
 ```

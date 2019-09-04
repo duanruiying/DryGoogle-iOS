@@ -47,7 +47,7 @@ typedef void (^BlockDryGoogleAvatar)    (UIImage *_Nullable img, NSURL *_Nullabl
 /// @说明 Google通过URL启动App时传递的数据(必须调用，否则登录成功后无回调)
 /// @注释 需要在application:openURL:options:中调用
 /// @返回 BOOL
-+ (BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
++ (BOOL)handleOpenURL:(NSURL *)url;
 
 /// @说明 登录
 /// @注释 登录成功后缓存用户的信息和令牌，未 logout 或 disconnect，再次登录不会弹出登录场景直接返回用户信息

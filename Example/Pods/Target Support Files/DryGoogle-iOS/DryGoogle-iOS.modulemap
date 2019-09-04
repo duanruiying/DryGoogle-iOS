@@ -1,0 +1,6 @@
+framework module DryGoogle_iOS {
+  umbrella header "DryGoogle-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

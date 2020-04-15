@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryGoogle-iOS'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.summary     = 'DryGoogle-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryGoogle-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }

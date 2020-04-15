@@ -1,6 +1,6 @@
 {
   "name": "DryGoogle-iOS",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "DryGoogle-iOS",
   "homepage": "https://github.com/duanruiying/DryGoogle-iOS",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/duanruiying/DryGoogle-iOS.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
   "description": "TODO: Google功能简化(登录、获取用户信息).",
   "platforms": {
